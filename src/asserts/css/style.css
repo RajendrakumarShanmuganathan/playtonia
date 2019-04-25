@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    box-shadow: 2px 2px 0px 0px #ddd !important;
+    -webkit-box-shadow: 2px 2px 0px 0px #ddd !important;
+    -moz-box-shadow: 2px 2px 0px 0px #ddd !important;
+}
+.cardBg{
+    background: #f8f9fa;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 1px #ddd;
+    width: 100%;
+    min-height: 250px;
+    margin:15px 0px;
+}
+.cardBg h2{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color:#464646;
+    text-transform: capitalize;
+}
+.cardBg p{
+    color:#464646;
+}
+.pagination{
+    float: right;
+    margin-top:20px;
+}
+.pagination li {
+    padding: 5px 10px;
+    border: 1px solid #555;
+    margin:0px 2px;
+}
+.pagination li.active{
+    background: #555;
+
+}
+.pagination li.active a{
+    color:#fff;
+}
+
+.pagination li a {
+    color:#464646;
+}
